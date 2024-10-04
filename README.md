@@ -1,7 +1,7 @@
 # DisEnvisioner: Disentangled and Enriched Visual Prompt for Customized Image Generation
 
 [![Page](https://img.shields.io/badge/Project-Website-pink?logo=googlechrome&logoColor=white)](https://disenvisioner.github.io/)
-[![Paper](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/XXXX.XXXXX)
+[![Paper](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2410.02067)
 [![HuggingFace Demo (coming soon)](https://img.shields.io/badge/🤗%20HuggingFace-Demo-yellow)](https://huggingface.co/spaces/ayayo/DisEnvisioner)
 
 [Jing He](https://scholar.google.com/citations?hl=en&user=RsLS11MAAAAJ)<sup>1<span style="color:red;">&#10033;</span></sup>,
@@ -26,4 +26,4 @@ We present **DisEnvisioner**, without cumbersome tuning or relying on multiple r
 
 ## 📢 News
 
-2024-10-XX: [Paper](https://arxiv.org/abs/XXXX.XXXXX) released, the code & demo will be available soon!
+2024-10-04: [Paper](https://arxiv.org/abs/2410.02067) released, the code & demo will be available soon!
