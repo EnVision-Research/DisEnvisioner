@@ -27,3 +27,14 @@ We present **DisEnvisioner**, without cumbersome tuning or relying on multiple r
 ## 📢 News
 
 2024-10-04: [Paper](https://arxiv.org/abs/2410.02067) released, the code & demo will be available soon!
+
+## 🎓 Citation
+If you find our work useful in your research, please consider citing our paper:
+```
+@article{he2024disenvisioner,
+    title={DisEnvisioner: Disentangled and Enriched Visual Prompt for Customized Image Generation},
+    author={Jing He and Haodong Li and Yongzhe Hu and Guibao Shen and Yingjie Cai and Weichao Qiu and Ying-Cong Chen},
+    journal={arXiv preprint arXiv:2410.02067},
+    year={2024}
+}
+```
