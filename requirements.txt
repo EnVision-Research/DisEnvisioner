@@ -1,0 +1,8 @@
+torch==2.0.1
+torchvision==0.15.2
+diffusers==0.22.1
+transformers==4.37.2
+numpy==1.26.4
+einops==0.7.0
+huggingface-hub==0.20.3
+accelerate==0.26.1
