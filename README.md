@@ -112,6 +112,12 @@ For the input image: `assets/example_inputs/dog.jpg` :
 </details>
 
 <details open>
+<summary>dog/"best quality, high quality, a dog in a purple wizard outfit"/scale_object=0.7/seed=42</summary>
+
+![example](assets/example_results/dog/sobj0.7_soth0.0_[best%20quality,%20high%20quality,%20a%20dog%20in%20a%20purple%20wizard%20outfit]_seed42.png)
+</details>
+
+<details>
 <summary>dog/"best quality, high quality, a dog standing in front of a fountain"/scale_object=0.7/seed=42</summary>
 
 ![example](assets/example_results/dog/sobj0.7_soth0.0_[best%20quality,%20high%20quality,%20a%20dog%20standing%20in%20front%20of%20a%20fountain]_seed42.png)
@@ -121,12 +127,6 @@ For the input image: `assets/example_inputs/dog.jpg` :
 <summary>dog/"best quality, high quality, a dog with Zebra-like pattern"/scale_object=0.7/seed=42</summary>
 
 ![example](assets/example_results/dog/sobj0.7_soth0.0_[best%20quality,%20high%20quality,%20a%20dog%20with%20Zebra-like%20pattern.%20]_seed42.png)
-</details>
-
-<details>
-<summary>dog/"best quality, high quality, a dog in a purple wizard outfit"/scale_object=0.7/seed=42</summary>
-
-![example](assets/example_results/dog/sobj0.7_soth0.0_[best%20quality,%20high%20quality,%20a%20dog%20in%20a%20purple%20wizard%20outfit]_seed42.png)
 </details>
 <br>
 
