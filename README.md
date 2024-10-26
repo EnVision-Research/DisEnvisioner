@@ -44,10 +44,10 @@ pip install -r requirements.txt
 
 ## 🕹️ Usage
 ### Download pre-trained models
-1. Download our pre-trained disenvisioner models from here. <br>
+1. Download our pre-trained disenvisioner models from [here](https://huggingface.co/jingheya/DisEnvisioner/tree/main/disenvisioner). <br>
 The link contains two models: `disvisioner.pt`and `envisioner.pt`. After downloading, place both models into the directory: `models/disenvisioner/`. 
-2. Download the pre-trained image encoder from here. <br>
-After downloading, please unzip it into the  directory: `models/`. 
+2. Download the pre-trained image encoder from [here](https://huggingface.co/jingheya/DisEnvisioner/tree/main/image_encoder). <br>
+After downloading, please place it into the  directory: `models/image_encoder/`. 
 
 ### Test on your own images
 You can use the following script to generate customized images or run `run_disenvisioner.sh` directly.
