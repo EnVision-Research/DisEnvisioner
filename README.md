@@ -43,9 +43,9 @@ pip install -r requirements.txt
 ```
 
 ## 🕹️ Usage
-### Download pre-trained models
+### Download pre-trained models (~3.5GB) (requires git-lfs)
 ```bash
-# make sure you have git-lfs installed (https://git-lfs.com)
+# it may take a few minutes :)
 git lfs install
 git clone https://huggingface.co/jingheya/disenvisioner_models
 ```
