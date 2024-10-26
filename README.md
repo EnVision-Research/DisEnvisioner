@@ -44,10 +44,11 @@ pip install -r requirements.txt
 
 ## 🕹️ Usage
 ### Download pre-trained models
-1. Download our pre-trained disenvisioner models from [here](https://huggingface.co/jingheya/DisEnvisioner/tree/main/disenvisioner). <br>
-The link contains two models: `disvisioner.pt`and `envisioner.pt`. After downloading, place both models into the directory: `models/disenvisioner/`. 
-2. Download the pre-trained image encoder from [here](https://huggingface.co/jingheya/DisEnvisioner/tree/main/image_encoder). <br>
-After downloading, please place it into the  directory: `models/image_encoder/`. 
+```bash
+# make sure you have git-lfs installed (https://git-lfs.com)
+git lfs install
+git clone https://huggingface.co/jingheya/disenvisioner_models
+```
 
 ### Test on your own images
 You can use the following script to generate customized images or run `run_disenvisioner.sh` directly.
@@ -69,8 +70,8 @@ CUDA_VISIBLE_DEVICES=0 python run_disenvisioner.py \
     --output_dir $YOUR_OUTDIR
 ```
 - `$SOBJ`: The scale for the customized object. Default: 0.7. 
-- `$DV_PATH`: The path of pre-trained disvisioner model. Default: models/disenvisioner/disvisioner.pt. 
-- `$EV_PATH`: The path of pre-trained envisioner model. Default: models/disenvisioner/envisioner.pt. 
+- `$DV_PATH`: The path of pre-trained disvisioner model. Default: disenvisioner_models/disenvisioner/disvisioner.pt. 
+- `$EV_PATH`: The path of pre-trained envisioner model. Default: disenvisioner_models/disenvisioner/envisioner.pt. 
 - `$IMAGE_PATH`: The path of the input image which contains your customized object. 
 - `$CLASS_NAME`: The class name of your customized object. 
 - `$PROMPT`: Editing prompt. 
@@ -82,7 +83,7 @@ CUDA_VISIBLE_DEVICES=0 python run_disenvisioner.py \
 CUDA_VISIBLE_DEVICES=0 python run_disenvisioner_w_ip.py \
     --pretrained_model_name_or_path "SG161222/Realistic_Vision_V4.0_noVAE" \
     --pretrained_CLIP "openai/clip-vit-large-patch14" \
-    --ip_image_encoder_path "models/image_encoder" \
+    --ip_image_encoder_path "disenvisioner_models/image_encoder" \
     --half_precision \
     --resolution 512 \
     --seed 42 \

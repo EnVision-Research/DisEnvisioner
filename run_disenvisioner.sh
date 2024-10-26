@@ -3,8 +3,8 @@ export MODEL_NAME="SG161222/Realistic_Vision_V4.0_noVAE"
 export ENCODER_NAME="openai/clip-vit-large-patch14"
 
 # our paths
-export DV_PATH="models/disenvisioner/disvisioner.pt"
-export EV_PATH="models/disenvisioner/envisioner.pt"
+export DV_PATH="disenvisioner_models/disenvisioner/disvisioner.pt"
+export EV_PATH="disenvisioner_models/disenvisioner/envisioner.pt"
 
 # inference settings
 export IMAGE_PATH="assets/example_inputs/dog.jpg"
