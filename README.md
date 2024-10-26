@@ -37,7 +37,7 @@ cd DisEnvisioner
 ```
 2. Install dependencies (requires conda):
 ```
-conda create -n disenvisioner python=3.9
+conda create -n disenvisioner python=3.9 -y
 conda activate disenvisioner
 pip install -r requirements.txt 
 ```
