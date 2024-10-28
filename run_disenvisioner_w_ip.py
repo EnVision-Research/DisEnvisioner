@@ -87,10 +87,6 @@ def run_inference(args, unet, disv_image_encoder, disv_text_encoder, image_encod
         inj_embedding, obj_map, _ = disvisioner(image_embeddings, class_proj, return_attns=True)
         obj_mask =(obj_map > 0.3).int()
 
-        import torchvision
-        obj_map = obj_map.reshape(1,16,16)
-        torchvision.utils.save_image(obj_map, "mask.png", normalize=True)
-
         # NOTE
         # currently the mask is passed through global_var for convinience, 
         # thus, the batchsize must be 1!
