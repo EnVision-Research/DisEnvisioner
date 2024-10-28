@@ -51,7 +51,8 @@ git clone https://huggingface.co/jingheya/disenvisioner_models
 ```
 
 ### Test on your own images
-You can use the following script to generate customized images or run `run_disenvisioner.sh` directly.
+You can use the following script to generate customized images.
+**(OR RUN: `bash run_disenvisioner.sh`)**
 ```bash
 CUDA_VISIBLE_DEVICES=0 python run_disenvisioner.py \
     --pretrained_model_name_or_path "SG161222/Realistic_Vision_V4.0_noVAE" \
@@ -78,7 +79,8 @@ CUDA_VISIBLE_DEVICES=0 python run_disenvisioner.py \
 - `$YOUR_OUTDIR`: The output directory.
 
 
-(Optional) For non-live objects, we recommand running the following script, which incorporates the weights of [IP-Adapter](https://github.com/tencent-ailab/IP-Adapter), to enhance object details and improve ID consistency. You can also run `run_disenvisioner_w_ip.sh` directly. 
+(Optional) For non-live objects, we recommand running the following script, which incorporates the weights of [IP-Adapter](https://github.com/tencent-ailab/IP-Adapter), to enhance object details and improve ID consistency.
+**(OR RUN: `bash run_disenvisioner_w_ip.sh`)**
 ```bash
 CUDA_VISIBLE_DEVICES=0 python run_disenvisioner_w_ip.py \
     --pretrained_model_name_or_path "SG161222/Realistic_Vision_V4.0_noVAE" \
