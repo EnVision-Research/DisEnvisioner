@@ -71,8 +71,8 @@ CUDA_VISIBLE_DEVICES=0 python run_disenvisioner.py \
     --output_dir $YOUR_OUTDIR
 ```
 - `$SOBJ`: The scale for the customized object. Default: 0.7. 
-- `$DV_PATH`: The path of pre-trained disvisioner model. Default: disenvisioner_models/disenvisioner/disvisioner.pt. 
-- `$EV_PATH`: The path of pre-trained envisioner model. Default: disenvisioner_models/disenvisioner/envisioner.pt. 
+- `$DV_PATH`: The path of pre-trained disvisioner model. Default: `disenvisioner_models/disenvisioner/disvisioner.pt`. 
+- `$EV_PATH`: The path of pre-trained envisioner model. Default: `disenvisioner_models/disenvisioner/envisioner.pt`. 
 - `$IMAGE_PATH`: The path of the input image which contains your customized object. 
 - `$CLASS_NAME`: The class name of your customized object. 
 - `$PROMPT`: Editing prompt. 
